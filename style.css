@@ -188,7 +188,7 @@
 /******************* HERO SECTION MEDIA QUERIES *******************/
 @media(max-width:950px){
 .hero{
-  min-height: 640px;
+  min-height: 700px;
 }
  .container{
   width: 85%;
@@ -221,7 +221,7 @@
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  min-height: 580px;
+  min-height: 675px;
 }
  .container{
   width: 90%;
