@@ -11,7 +11,6 @@ $(document).ready(function(){
 
     $('.gg').on('mouseover',function(){ // For the services card to flip
       var thise = $(this).attr("data-gg-id");
-        console.log(thise);
         $('.' + thise).css({
         	'opacity':'1',
         	'transition':'.5s all',
@@ -22,7 +21,7 @@ $(document).ready(function(){
     })
     $('.gg').on('mouseout',function(){ // For the services card to flip 
         var thise = $(this).attr("data-gg-id");
-        console.log(thise);
+        
         $('.' + thise).css({
         	'opacity':'0',
         	'transition':'.5s all',
@@ -38,13 +37,13 @@ $(document).ready(function(){
   
 
        $('.nav-ul li').on('click',function(){ // To remove the thing after clicking a link
-       	console.log("clicked"); 
+       
     	$('#arrow-menu').removeClass('active');
     	var menuDown = $('.nav-ul'); 
     	menuDown.removeClass('menu-active'); 
     })
        $('.showall').on('click',function(){
-       	console.log("clickedshowallbutton");
+       
        	$('.hidden-gg').toggleClass('hidden-gg')
        	$('.showall-div').css({
        		'display':'none'
