@@ -126,12 +126,7 @@
     margin: 3rem 0rem;
   }
  }
- @media(max-width:500px){
-  .menu-active{
-    display: block; 
-    inset: 4rem 0em 0em 0em; 
-  }
-}
+
 
 /*************************************************************** HERO SECTION *******************************************************/
 .hero{
@@ -221,7 +216,7 @@
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  min-height: 675px;
+  min-height: 700px;
 }
  .container{
   width: 90%;
@@ -724,7 +719,6 @@
   margin-top: 1em;
   text-align: center;
   background-color: transparent;
-  color: white;
   border:2px solid white;
   border-radius: 1rem;
   padding: .8em 1.7em; 
@@ -733,6 +727,10 @@
   cursor: pointer; 
 
   transition: .3s all;
+}
+.contact-button a{
+  text-decoration: none;
+  color: white;
 }
 .contact-button:hover{ 
   background-color: var(--fc-orange);
@@ -846,7 +844,7 @@
 .container5{
   width: 85%;
   font-size: 1rem;
-  padding: 3em 0em;
+  padding: 4em 0em;
 }
 .c5-p1{
   margin-bottom: 2em;
@@ -884,7 +882,7 @@
 .container5{
   width: 90%;
   font-size: 1rem;
-  padding: 3em 0em;
+  padding: 4em 0em;
 }
 .c5-p1{
   margin-bottom: 2em;

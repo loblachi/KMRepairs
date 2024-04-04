@@ -12,10 +12,10 @@ $(document).ready(function(){
     $('.gg').on('mouseover',function(){ // For the services card to flip
       var thise = $(this).attr("data-gg-id");
         $('.' + thise).css({
-        	'opacity':'1',
-        	'transition':'.5s all',
-        	'backgroundColor':'white',
-        	'box-shadow':'rgb(00, 00, 00) 0px 20px 30px -10px',
+        	'opacity':'.93',
+        	'transition':'.75s all',
+        	'backgroundColor':'var(--fc-yellow)',
+        	'box-shadow':'white 0px 10px 20px 5px',
         	'transform':'rotateY(0deg)'
         })
     })
@@ -24,7 +24,7 @@ $(document).ready(function(){
         
         $('.' + thise).css({
         	'opacity':'0',
-        	'transition':'.5s all',
+        	'transition':'.75s all',
         	'transform':'rotateY(-180deg)'
         })
     })
@@ -33,6 +33,7 @@ $(document).ready(function(){
     	var arrow = $(this).toggleClass('active');
     	var menuDown = $('.nav-ul'); 
     	menuDown.toggleClass('menu-active'); 
+
     })
   
 
