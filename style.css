@@ -213,11 +213,10 @@
 @media(max-width:500px){  /*Mobile media queries */
 .hero{
   background: url("./Images/img-17.jpg");
-  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat:repeat-y;
-  height: 100vh;
+  min-height: 700px;
 }
  .container{
   width: 90%;
