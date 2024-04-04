@@ -1,6 +1,0 @@
-hero section 
-about + starting off from small
-Servers offered + CTA
-testimonials
-working hours 
-contact information
