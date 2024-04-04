@@ -215,8 +215,6 @@
   background: url("./Images/img-17.jpg");
   background-attachment: fixed;
   background-size: cover;
-  background-position: center;
-  background-repeat:repeat-y;
   min-height: 700px;
 }
  .container{
