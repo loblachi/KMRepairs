@@ -215,7 +215,9 @@
   background: url("./Images/img-17.jpg");
   background-attachment: fixed;
   background-size: cover;
-  min-height: 700px;
+  background-position: center;
+  background-repeat:repeat-y;
+  min-height: 100vh;
 }
  .container{
   width: 90%;
@@ -1198,7 +1200,7 @@
   font-family: var(--ff-manrope);
   font-size: var(--size-tab-text-1);
   color: white; 
-  opacity: .7;
+  opacity: .3;
 }
 }
 
@@ -1251,6 +1253,6 @@
   font-family: var(--ff-manrope);
   font-size: var(--size-mobile-text-1);
   color: white; 
-  opacity: .7;
+  opacity: .3;
 }
 }
